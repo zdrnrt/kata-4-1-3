@@ -4,6 +4,9 @@ body{
     line-height: 1.5;
     color: #1B1C21;
 }
+*{
+    box-sizing: border-box;
+}
 *:focus-within{
     outline-color: rgb(255, 62, 121);
 }
