@@ -262,7 +262,11 @@ img {
   min-height: 100svh;
   max-height: 100vh;
   background-color: #fff;
-  overflow: auto; }
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; }
+  .aside::-webkit-scrollbar {
+    display: none; }
   @media screen and (min-width: 768px) {
     .aside {
       position: absolute;
@@ -286,9 +290,6 @@ img {
     width: 100%;
     margin-top: auto;
     padding: 0 24px 32px; }
-    @media screen and (min-width: 1120px) {
-      .aside__footer {
-        margin-top: 260px; } }
 
 .aside-header {
   display: -webkit-box;
